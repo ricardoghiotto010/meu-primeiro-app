@@ -1,0 +1,19 @@
+cinema = [
+    [0,0,1],
+    [0,1,0],
+    [0,0,1]
+
+]
+
+linha = int(input("Digite a fileira que voce deseja (0 a 2): "))
+coluna = int(input("Digite o assento que voce deseja (0 a 2): "))
+
+if cinema[linha][coluna] == 0:
+    cinema[linha][coluna] = 1
+    print("Reserva concluída!")
+else:
+    print("Erro: Esta cadeira já está ocupada.")
+
+print("Assentos:")
+for fila in cinema:
+    print(fila)
