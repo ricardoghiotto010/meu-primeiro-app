@@ -1,0 +1,13 @@
+notas = [
+    [7.5, 8.0, 6.0],
+    [9.0, 5.5, 9.5],
+    [4.0, 7.0, 8.5]
+]
+
+maior_nota = 0
+
+for linha in notas:
+    for nota in linha:
+        if nota > maior_nota:
+            maior_nota = nota
+            print(f"maior nota:{maior_nota}")
