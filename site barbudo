@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Manual do Milionário Jovem</title>
+    <style>
+        body { margin: 0; font-family: sans-serif; }
+        header { background: #2c3e50; color: white; text-align: center; padding: 20px; }
+        
+        section {
+            display: flex;
+            min-height: 80vh;
+        }
+
+        /* Coluna 1: Mentalidade e Estudos */
+        .lateral-esquerda {
+            width: 25%;
+            background-color: #f1f1f1;
+            padding: 20px;
+            border-right: 1px solid #ddd;
+        }
+
+        /* Coluna 2: Conteúdo Principal */
+        .conteudo-central {
+            width: 50%;
+            background-color: #ffffff;
+            padding: 30px;
+            line-height: 1.6;
+        }
+
+        /* Coluna 3: Dicas e Alertas */
+        .lateral-direita {
+            width: 25%;
+            background-color: #e8f4fd;
+            padding: 20px;
+            border-left: 1px solid #ddd;
+        }
+
+        img { width: 100%; border-radius: 8px; margin-bottom: 15px; }
+        h2 { color: #27ae60; }
+        h3 { color: #2c3e50; border-bottom: 1px solid #ccc; padding-bottom: 5px; }
+        li { margin-bottom: 10px; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Riqueza na Juventude</h1>
+</header>
+
+<section>
+    <!-- COLUNA DA ESQUERDA: PREPARAÇÃO -->
+    <div class="lateral-esquerda">
+        <h3>🧠 Mentalidade</h3>
+        <ul>
+            <li>Pense a longo prazo.</li>
+            <li>Troque o consumo por investimento.</li>
+            <li>Estude mais do que os outros.</li>
+        </ul>
+
+        <h3>📚 Livros Recomendados</h3>
+        <img src="https://pexels.com" alt="Livros">
+        <ul>
+            <li>Pai Rico, Pai Pobre</li>
+            <li>O Homem mais Rico da Babilônia</li>
+            <li>Psicologia Financeira</li>
+        </ul>
+    </div>
+
+    <!-- CONTEÚDO PRINCIPAL -->
+    <div class="conteudo-central">
+        <img src="https://pexels.com" alt="Dinheiro">
+        <h2>Como chegar ao primeiro milhão</h2>
+        <p>Para ficar rico cedo, você não precisa de sorte, mas de <strong>estratégia</strong>:</p>
+        
+        <ol>
+            <li><strong>Aumente sua renda:</strong> Aprenda habilidades como programação, vendas ou marketing digital.</li>
+            <li><strong>A lei dos 20%:</strong> Poupe e invista antes mesmo de pagar suas contas.</li>
+            <li><strong>Juros Compostos:</strong> O tempo é seu maior aliado. Começar aos 20 anos vale ouro.</li>
+            <li><strong>Evite Passivos:</strong> Não compre coisas para impressionar quem você não gosta.</li>
+        </ol>
+    </div>
+
+    <!-- COLUNA DA DIREITA: AÇÃO E CUIDADOS -->
+    <div class="lateral-direita">
+        <h3>💰 Onde Investir?</h3>
+        <p><strong>Renda Fixa:</strong> Para sua reserva de segurança.</p>
+        <p><strong>Ações e FIIs:</strong> Para receber dividendos todos os meses.</p>
+
+        <h3>⚠️ Erros para Evitar</h3>
+        <img src="https://pexels.com" alt="Alerta">
+        <p>1. Gastar tudo o que ganha.</p>
+        <p>2. Entrar em dívidas de cartão de crédito.</p>
+        <p>3. Acreditar em "dinheiro fácil" e pirâmides.</p>
+        
+        <h3>🎯 Primeiras Metas</h3>
+        <p>✅ Quitar todas as dívidas.</p>
+        <p>✅ Criar reserva de 6 meses.</p>
+        <p>✅ Fazer o primeiro investimento.</p>
+    </div>
+</section>
+
+<footer style="text-align:center; padding:20px; background:#f1f1f1;">
+    <p>O caminho é difícil, mas a liberdade vale a pena.</p>
+</footer>
+
+</body>
+</html>
