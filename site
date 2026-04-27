@@ -1,0 +1,87 @@
+💻 O Código (Simples e Modular)
+python
+# Função 1: Apenas para ler os dados (Entrada)
+def pedir_valor(frase):
+    valor = float(input(frase))
+    return valor
+
+# Função 2: Apenas para fazer a conta (Lógica)
+def calcular_desconto(preco, cupom):
+    valor_final = preco - cupom
+    return valor_final
+
+# Função 3: Apenas para mostrar o resultado (Saída)
+def mostrar_recibo(total):
+    print("--------------------------")
+    print(f"O valor com desconto é: R$ {total}")
+    print("--------------------------")
+
+# --- Programa Principal ---
+print("Bem-vindo à Loja Simples!")
+p = pedir_valor("Digite o preço do produto: ")
+d = pedir_valor("Digite o valor do desconto: ")
+
+resultado = calcular_desconto(p, d)
+mostrar_recibo(resultado)
+Use o código com cuidado.
+🛠️ Roteiro para os 5 Commits (Git)
+Abra o terminal na pasta do seu projeto e execute um por um após cada alteração:
+Primeiro Passo: Crie o arquivo app.py vazio.
+git add app.py
+git commit -m "setup: inicializa o arquivo principal"
+Segundo Passo: Escreva a função pedir_valor.
+git add app.py
+git commit -m "feat: adiciona função para ler dados do usuário"
+Terceiro Passo: Escreva a função calcular_desconto.
+git add app.py
+git commit -m "feat: adiciona lógica de cálculo de desconto"
+Quarto Passo: Escreva a função mostrar_recibo.
+git add app.py
+git commit -m "feat: adiciona função de exibição de resultados"
+Quinto Passo: Escreva o "Programa Principal" (as últimas linhas) e teste.
+git add app.py
+git commit -m "final: integra as funções e finaliza o app"
+🎤 O que falar na Apresentação (3,0 pontos)
+O Problema: "Muitas vezes queremos saber o preço final de um produto com desconto de cabeça e nos confundimos. Meu app automatiza isso."
+Modularidade: "Eu dividi o código em 3 partes: uma só recebe dados, outra só calcula e a última só mostra na tela. Isso deixa o código organizado." (Mostre a função calcular_desconto no telão).
+Git: "Como podem ver no meu GitHub, eu não colei o código pronto. Eu fiz em 5 etapas, versionando cada nova função que eu criava."
+Você já tem o Python instalado ou precisa de ajuda para criar o repositório no GitHub?
+
+
+
+
+faca mais explica os 5commit
+Para garantir que você ganhe os 3,0 pontos de Git, você precisa entender o que aconteceu em cada "foto" (commit) do seu código. O professor quer ver a evolução.
+Aqui está a explicação detalhada de cada commit para você usar na sua apresentação:
+📂 Passo a Passo do Histórico Git
+Commit 1: O Início (Setup)
+Mensagem: git commit -m "initial: estrutura inicial do projeto"
+O que explicar: "Neste primeiro momento, eu apenas preparei o terreno. Criei o arquivo principal e o repositório. É o ponto de partida onde o projeto ainda não tem funcionalidades, apenas a estrutura básica."
+Commit 2: Entrada de Dados
+Mensagem: git commit -m "feat: cria função para coletar dados do usuário"
+O que explicar: "Aqui eu foquei na primeira parte da modularidade: a entrada. Criei a função pedir_valor. Ela é importante porque isola a forma como o programa recebe informações, facilitando se eu quiser mudar de input() para uma interface gráfica no futuro."
+Commit 3: O "Cérebro" (Lógica)
+Mensagem: git commit -m "feat: implementa a lógica de cálculo do desconto"
+O que explicar: "Neste commit, adicionei a função calcular_desconto. Note que ela não 'pergunta' nada ao usuário e nem 'imprime' nada. Ela apenas processa números. É o coração do programa, onde a regra de negócio acontece."
+Commit 4: A Interface (Saída)
+Mensagem: git commit -m "feat: cria função de exibição formatada"
+O que explicar: "Agora foquei na experiência do usuário. Criei a função mostrar_recibo. Ela pega o resultado final e o apresenta de forma limpa e organizada, usando traços para separar as informações na tela."
+Commit 5: A Integração Final
+Mensagem: git commit -m "build: conecta as funções e finaliza o fluxo principal"
+O que explicar: "No último commit, eu fiz a integração. Chamei as funções na ordem correta dentro do programa principal. Com isso, transformei funções isoladas em um software funcional e testado."
+💡 Dica de Ouro para o "Pitch":
+Se o professor perguntar: "Por que você fez tantos commits para um código pequeno?"
+Responda assim:
+"Fiz dessa forma para seguir as boas práticas do mercado. O versionamento serve para documentar a evolução do raciocínio e permitir que, caso ocorra um erro em uma etapa, eu possa rastrear exatamente onde ele foi introduzido sem perder o trabalho anterior."
+🛠️ Comandos que você vai usar no Terminal:
+Para cada etapa acima, você fará:
+Altera o código no VS Code.
+git add .
+git commit -m "mensagem que expliquei acima"
+No final de tudo, para mandar para o site (GitHub):
+git push origin main
+Você já sabe como criar o repositório no GitHub para subir esse código?
+
+
+
+
